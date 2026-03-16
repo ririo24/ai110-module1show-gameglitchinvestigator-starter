@@ -26,8 +26,11 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+         This is a guessing numbers game. Users are given a selection of difficulty levels to choose from which corresponds to the size of the range of values they will be guessing from. The user will recieve hints, notifying them if their guess was too high or too low. 
 - [ ] Detail which bugs you found.
+         I found several bugs in this program. For instance, the hint is opposite of what it's supposed to be. Another bug was an incorrect hard difficulty max range value. I also noticed that the message bar always says "Guess a number between 1 and 100" and doesn't adjust for difficulty setting range.
 - [ ] Explain what fixes you applied.
+         I had Claude adjust the hints so that they would not be giving the opposite message to the user. Claude also changed the max range value for the hard difficulty level to be 200, instead of 50. As for the message, instead of the statement being st.info statement always be "Guess a number between 1 and 100", it now adjusts to the current low and high values that are currently set for the difficulty level.
 
 ## 📸 Demo
 
